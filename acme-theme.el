@@ -357,7 +357,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(lsp-face-highlight-write                     ((t (:background ,green-light))))
 
 ;;;;; magit
-   `(magit-section-heading                        ((t (:foreground ,cyan :weight normal :underline t :height 1.4))))
+   `(magit-section-heading                        ((t (:foreground ,cyan :weight normal :underline t))))
    `(magit-section-highlight                      ((t (:background ,bg-alt))))
    `(magit-section-heading-selection              ((t (:background ,highlight))))
    `(magit-filename                               ((t (:foreground ,fg))))
@@ -460,8 +460,8 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(yascroll:thumb-fringe                        ((t (:background ,bg :foreground ,bg :box (:line-width 1 :style released-button)))))
 
 ;;;;; Org
-   `(org-level-1                                  ((t (:height 1.4 :weight normal :background ,bg-dark))))
-   `(org-level-2                                  ((t (:height 1.2 :background ,bg-dark))))
+   `(org-level-1                                  ((t (:weight normal :background ,bg-dark))))
+   `(org-level-2                                  ((t (:background ,bg-dark))))
    `(org-level-3                                  ((t (:weight normal))))
    `(org-level-4                                  ((t (:foreground ,fg-alt-dark :weight normal))))
    `(org-level-5                                  ((t (:foreground ,fg-alt-dark))))
@@ -471,7 +471,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(org-meta-line                                ((t (:foreground ,green))))
    `(org-document-info                            ((t (:foreground ,cyan :weight normal))))
    `(org-document-info-keyword                    ((t (:foreground ,cyan))))
-   `(org-document-title                           ((t (:foreground ,fg :height 1.5 :weight normal :family "Sans Serif" :underline t))))
+   `(org-document-title                           ((t (:foreground ,fg :weight normal :underline t))))
    `(org-todo                                     ((t (:foreground ,yellow :background ,bg-alt :weight normal :box (:line-width 1 :style released-button)))))
    `(org-done                                     ((t (:foreground ,green :background ,green-light :weight normal :box (:style released-button)))))
    `(org-date                                     ((t (:foreground ,purple))))
