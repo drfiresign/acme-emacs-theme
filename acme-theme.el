@@ -135,7 +135,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(font-lock-comment-delimiter-face             ((t (:foreground ,yellow :italic t))))
    `(font-lock-constant-face                      ((t (:foreground ,fg :weight bold))))
    `(font-lock-doc-face                           ((t (:foreground ,yellow :italic t))))
-   `(font-lock-function-name-face                 ((t (:foreground ,fg :weight normal))))
+   `(font-lock-function-name-face                 ((t (:foreground ,fg-alt-dark :weight normal))))
    `(font-lock-keyword-face                       ((t (:foreground ,blue :weight bold)))) ; if, else, for, while, return...
    `(font-lock-negation-char-face                 ((t (:foreground ,red :weight normal))))
    `(font-lock-preprocessor-face                  ((t (:foreground ,green :weight normal))))
@@ -143,7 +143,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(font-lock-regexp-grouping-backslash          ((t (:foreground ,red :weight normal))))
    `(font-lock-string-face                        ((t (:foreground ,red))))
    `(font-lock-type-face                          ((t (:foreground ,fg :weight bold)))) ; int, float, string, void...
-   `(font-lock-variable-name-face                 ((t (:foreground ,fg))))
+   `(font-lock-variable-name-face                 ((t (:foreground ,blue))))
    `(font-lock-warning-face                       ((t (:foreground ,red :weight normal))))
 
  ;;;; table
